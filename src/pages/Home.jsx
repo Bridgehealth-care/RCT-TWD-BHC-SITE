@@ -91,7 +91,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <ReviewsMarqueue />
+//             <ReviewsMarqueue />
             <Footer />
           </div>
       }
