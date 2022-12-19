@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className="w-screen h-[45vh] bg-bhc_green flex items-center justify-center flex-col space-y-5 relative">
             <div className="flex space-x-4 items-center">
-                <img src="https://www.bridgehealth.care/assets/img/logo.jpeg" alt="" className="w-16 h-16 shadow-2xl rounded-xl" />
+                <img src="https://bhc-web-ker3.vercel.app/assets/img/logo.jpeg" alt="" className="w-16 h-16 shadow-2xl rounded-xl" />
                 <span className="text-4xl font-semibold text-white font-playfair">Bride Health Care</span>
             </div>
             <span className="text-bhc_white tracking-wide w-[40%] text-center ">Providing remotely accessible diagnostic parameters for timely healthcare at every corner of the world.</span>

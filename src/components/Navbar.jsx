@@ -19,7 +19,7 @@ const Navbar = ({navClr}) => {
     return (
         <div className=" w-full h-16  flex justify-between px-20 items-center text-white" style={navClr &&  {backgroundColor : "#30534d" }}>
             <div className="flex items-center space-x-4 cursor-pointer" onClick={()=>navigate("/")}>
-                <img src="https://www.bridgehealth.care/assets/img/logo.jpeg" alt="" className="w-10 h-10" />
+                <img src="https://bhc-web-ker3.vercel.app/assets/img/logo.jpeg" alt="" className="w-10 h-10" />
                 <span className="text-2xl font-semibold tracking-wide font-playfair">Bridge Health Care</span>
             </div>
             <div className="flex space-x-4">
