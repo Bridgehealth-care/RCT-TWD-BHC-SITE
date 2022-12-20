@@ -4,8 +4,8 @@ const ReviewsMarqueue = () => {
     const review = [
         {
             desc: "Bridging the gap in health care is the need of the hour . Clinical parameters with a high level of accuracy aid the health care professionals to render better disease management.Our innovation helps to reach the unreached - the lonely senior citizens, the economically disadvantaged,those in remote areas far from tertiary health care.",
-            name: "Aradhya Bansal",
-            job: "Web Development Intern",
+            name: "Abhay Bisht",
+            job: "SDE Intern",
             image: "https://images.unsplash.com/photo-1505200063777-4a0b90b007c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
         },
         {
