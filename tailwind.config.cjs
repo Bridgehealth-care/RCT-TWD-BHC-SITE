@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
     fontFamily : {
@@ -28,14 +28,16 @@ module.exports = {
   },
   extend: {
       backgroundImage: {
-        'bg_one': `linear-gradient(to right, #30534d, rgba(30, 67, 86, 0.6)), url("https://www.bridgehealth.care/assets/img/main.png") `
+        'bg_one': `linear-gradient(to right, #30534d, rgba(30, 67, 86, 0.6)), url("https://wallpaperaccess.com/full/136934.jpg") `
       },
       colors:{
         "bhc_green":"#30534d",
-        "bhc_white":"#f2eee3"
+        "bhc_white":"#f2eee3",
+        "card_bg" : "#fdfdff"
       }
 }},
   plugins: [
     require('tailwind-scrollbar')({ nocompatible: true }),
+    require('flowbite/plugin')
   ]
 }

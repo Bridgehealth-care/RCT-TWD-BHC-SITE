@@ -7,7 +7,7 @@ import healthCare from "../assets/healthcare.gif"
 import TaskAltOutlinedIcon from '@mui/icons-material/TaskAltOutlined';
 import gif2 from "../assets/gif2.gif"
 import Loader from '../components/Loader';
-
+import aboutus from "../assets/aboutus.mp4"
 const About = () => {
     const [load, setLoad] = useState(true)
     useEffect(() => {
@@ -79,9 +79,14 @@ const About = () => {
                                 <img src={about_gif} alt="" />
                             </div>
                         </div>
+                        <div className="w-full h-screen flex items-center justify-center">
+                            <video width="70%" height="20%" autoPlay loop muted >
+                                <source src="https://www.bridgehealth.care/assets/img/Bridge%20Healthcare%20(2).mp4" type="video/mp4"/>
+                            </video>
+                        </div>
                         <div className=" flex flex-col w-[80%] min-h-screen font-lora ml-32 mb-20">
-                            <h1 className="text-4xl text-bhc_green font-semibold ">Our Team</h1>
-                            <div className="w-full h-full bg-slate-100 rounded-lg mt-3 flex flex-wrap gap-20 justify-center p-8">
+                            <h1 className="text-5xl text-bhc_green font-semibold font-lora">Our Team</h1>
+                            <div className="w-full h-full bg-slate-100 rounded-lg mt-3 flex flex-wrap gap-20 justify-center p-8 font-lora">
                                 {
                                     team_data.map((ele) => (
                                         <div className="flex flex-col items-center shadow-2xl p-7 rounded-2xl bg-white w-64 cursor-pointer">

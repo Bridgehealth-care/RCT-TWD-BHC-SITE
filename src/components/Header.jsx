@@ -20,7 +20,7 @@ const Header = () => {
     }
   }, []);
   return (
-    <div className="w-[120vw] h-[90vh] font-roboto  bg-bg_one rounded-bl-[50%] rounded-br-[50%] items-center  flex flex-col  relative -left-[10%]">
+    <div className="w-[120vw] h-[94vh] font-roboto  bg-bg_one rounded-bl-[50%] rounded-br-[50%] items-center  flex flex-col  relative -left-[10%]">
       <div className="w-screen">
         <Navbar />
       </div>
