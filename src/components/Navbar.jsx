@@ -31,18 +31,10 @@ const Navbar = ({ navClr }) => {
         },
     ]
     return (
-<<<<<<< HEAD
-        <div className="flex w-screen flex-col">
-            <div className="  overflow-hidden bg-bhc_green text-bhc_white cursor-pointer ">
-                <Marquee speed={100} delay={0} pauseOnHover={true} gradient={false}>
-                    <span className='font-semibold tracking-widest font-lora'>NO DELAY IN HEALTH CARE</span>
-                </Marquee>
-=======
         <div className=" w-full h-16  flex justify-between px-20 items-center text-white" style={navClr &&  {backgroundColor : "#30534d" }}>
             <div className="flex items-center space-x-4 cursor-pointer" onClick={()=>navigate("/")}>
                 <img src="https://bhc-web-ker3.vercel.app/assets/img/logo.jpeg" alt="" className="w-10 h-10" />
                 <span className="text-2xl font-semibold tracking-wide font-playfair">Bridge Health Care</span>
->>>>>>> main
             </div>
             <div className="w-full h-20  flex justify-between pl-20 pr-7  items-center text-white " style={navClr && { backgroundColor: "#30534d" }}>
                 <div className="flex items-center space-x-4 cursor-pointer" onClick={() => navigate("/")}>
