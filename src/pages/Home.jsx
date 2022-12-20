@@ -9,12 +9,12 @@ import Loader from '../components/Loader';
 const Home = () => {
   const Header_One = [
     {
-      image: "https://bhc-web-ker3.vercel.app/assets/img/med_Digital.png",
+      image: "https://images.pexels.com/photos/3957987/pexels-photo-3957987.jpeg?auto=compress&cs=tinysrgb&w=600",
       title: "Our Mission",
       description: "We are a start-up that is striving hard to bring about a revolution in the field of healthcare services. We are team of technically skilled engineers and competent managers working to the zenith of our potential to help healthcare facilities reach every corner of the world to people belonging to every stratum of the society."
     },
     {
-      image: "https://bhc-web-ker3.vercel.app/assets/img/Digital-health-AdobeStock_176809584-72dpi.jpeg",
+      image: "https://images.pexels.com/photos/4021779/pexels-photo-4021779.jpeg?auto=compress&cs=tinysrgb&w=600",
       title: "Our Vision",
       description: "To make healthcare services available to every individual across the globe surpassing trivial barriers like economic feasibility because healthcare is a right, and not a privilege."
     }
