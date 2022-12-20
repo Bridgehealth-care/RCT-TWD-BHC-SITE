@@ -40,7 +40,7 @@ const Records = ({records , setrecords , closeRecords  , openRecords }) => {
                      <CloseOutlinedIcon onClick={closeRecords} className="cursor-pointer hover:text-blue-600"/>
                   </Dialog.Title>
                   <div className="w-full h-[96%] mt-2 bg-slate-200  rounded-2xl overflow-hidden flex flex-col justify-between">
-                    <iframe src={tdm}  style={{width:"100%" , height:"100%"}}  frameBorder="0"></iframe>
+                    <iframe src={tdm}  style={{width:"100%" , height:"100%"}}></iframe>
                   </div>
                 </div>
               </Transition.Child>
