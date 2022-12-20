@@ -23,5 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
+<<<<<<< HEAD
 package-lock.json
 yarn.lock
+=======
+yarn.lock
+package-lock.json
+>>>>>>> main
