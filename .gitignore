@@ -22,11 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+yarn.lock
+package-lock.json
 
-<<<<<<< HEAD
-package-lock.json
-yarn.lock
-=======
-yarn.lock
-package-lock.json
->>>>>>> main
