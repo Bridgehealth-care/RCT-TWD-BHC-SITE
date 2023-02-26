@@ -1,0 +1,17 @@
+.navbar_container {
+    width: 100%;
+    height: 10vh;
+    background: #FFFFFF;
+}
+
+.link_items {
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+.login_button {
+    border: 2px solid #3767B1;
+    color: #3767B1;
+    padding: 0.5rem 1.5rem;
+    border-radius: 15px;
+}
