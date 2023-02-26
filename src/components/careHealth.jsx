@@ -1,6 +1,6 @@
 import React from "react";
 import '../CSS/careHealth.css';
-import Care_Img from '../components/Assets/care_img.png';
+import Care_Img from '../assets/Assets3/care_img.png';
 
 const CareHealth = () => {
     return (

@@ -61,11 +61,11 @@ import React from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { ReactDOM } from 'react';
 import '../CSS/footer.css';
-import appStore from '../components/Assets/AppStore.png';
-import googleStore from '../components/Assets/GooglePlay.png';
-import bt_img from '../components/Assets/bottom_img.png';
-import bhc_logo from '../components/Assets/bhc logo_1.png';
-import bhc_text from '../components/Assets/Bridge HealthCare.png';
+import appStore from '../assets/Assets3/AppStore.png';
+import googleStore from '../assets/Assets3/GooglePlay.png';
+import bt_img from '../assets/Assets3/bottom_img.png';
+import bhc_logo from '../assets/Assets3/bhc logo_1.png';
+import bhc_text from '../assets/Assets3/Bridge HealthCare.png';
 
 const Footer = () => {
     return (

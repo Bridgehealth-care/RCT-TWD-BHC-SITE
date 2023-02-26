@@ -31,7 +31,7 @@ const Navbar = ({ navClr }) => {
      
         {
             title: "Product",
-            to: "/product"
+            to: "/products"
         },
 
          {

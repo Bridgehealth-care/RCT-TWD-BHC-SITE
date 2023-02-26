@@ -3,7 +3,8 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import Loader from '../components/Loader';
 import Services from '../components/About Us/Services';
-import Card from '../components/About Us/Card';
+// import Card from '../components/About Us/Card';
+import CareHealth from '../components/careHealth';
 import Header from '../components/Header';
 const About = () => {
     const [load, setLoad] = useState(true)
@@ -33,7 +34,7 @@ const About = () => {
                         </div>
            
           
-                        <div  style={{
+                        {/* <div  style={{
                             height: "500px",
                             width: "100%",
                             left: "-0.05px",
@@ -46,25 +47,16 @@ const About = () => {
                             backgroundColor: "#F5F5F5",
                             marginTop: "160px",
                         }}>
-                            <div className="flex justify-center items-center">
+                            {/* <div className="flex justify-center items-center">
 
                                 <h2>We Care About Your Health</h2>
                                 <p>We have introduced the principle of family medicine, which means that the family practitioner will handle the majority of medical requests, with a specialists involved only if necessary.</p>
-                            </div>
-                        </div>
+                            </div> */}
+                        {/* </div>  */}
                         {/* import card element of family care here */}
-                            <Card title = "Family Care"
-                                para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
-                                imgsrc = "https://uxwing.com/wp-content/themes/uxwing/download/buildings-architecture-real-estate/home-house-icon.png"
-                            />
-                            <Card title = "Urgent Care"
-                            imgsrc = "https://uxwing.com/wp-content/themes/uxwing/download/buildings-architecture-real-estate/home-house-icon.png"
-                            para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
-                            />
-                            <Card title = "Regular care"
-                                imgsrc = "https://uxwing.com/wp-content/themes/uxwing/download/buildings-architecture-real-estate/home-house-icon.png"
-                                para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
-                            />
+                    <CareHealth
+                        
+                    />
                     </div>
                     {/* add footer component from here */}
                     <Footer />
