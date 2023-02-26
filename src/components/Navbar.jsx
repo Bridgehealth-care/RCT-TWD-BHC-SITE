@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import newLogo from "../assets/newlogo.jpg"
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 
 
 const Navbar = ({ navClr }) => {
@@ -15,35 +15,44 @@ const Navbar = ({ navClr }) => {
         //     title: "Products",
         //     to: "/Products"
         // }
-        , {
-            title: "Blogs",
-            to: "/Blogs"
-        }, {
+        // , {
+        //     title: "Blogs",
+        //     to: "/Blogs"
+        // }, 
+        {
             title: "About Us",
             to: "/About"
         },
+        
         {
-            title: "Carrers",
-            to: "/Carrers"
-        }, {
+            title: "Our Services",
+            to: "/Ourservices"
+        },
+     
+        {
+            title: "Product",
+            to: "/product"
+        },
+
+         {
             title: "Contact Us",
             to: "/Contact-Us"
         },
     ]
+    const login = ['Patient','Provider']
     return (
         <div className="flex w-screen flex-col">
-            <div className="  overflow-hidden bg-bhc_green text-bhc_white cursor-pointer ">
-                <Marquee speed={100} delay={0} pauseOnHover={true} gradient={false}>
-                    <span className='font-semibold tracking-widest font-lora'>NO DELAY IN HEALTH CARE</span>
-                </Marquee>
+            <div className="  overflow-hidden   cursor-pointer " style={{backgroundColor:"#fffff",
+            color:"black"}}>
+               
             </div>
-            <div className="w-full h-20  flex justify-between pl-20 pr-7  items-center text-white " style={navClr && { backgroundColor: "#30534d" }}>
+            <div className="w-full h-20  flex justify-between pl-20 pr-7  items-center text-black bg-white ">
                 <div className="flex items-center space-x-4 cursor-pointer" onClick={() => navigate("/")}>
-                    <img src={newLogo} alt="" className="w-12 h-12" />
+                    <img src={newLogo} alt="" className="w-16 h-10" />
                     <div className="flex flex-col ">
-                        <span className="text-3xl font-semibold tracking-wide font-lora">Bridge Health Care</span>
+                        <span className="text-3l font-semibold tracking-wide font-lora">Bridge Health Care</span>
                         <span className="text-xs font-sans tracking-widest">
-                            Empowering community for a healthy life
+                            Private Limited
                         </span>
                     </div>
                 </div>
@@ -56,8 +65,20 @@ const Navbar = ({ navClr }) => {
                         ))
                     }
                 </div>
+            <div className='relative'>
+                    <button className='cursor-pointer flex'>Log In</button>
+            <div className='bg-grey p-4 w-52 shadow-lg absolute'>
+            <ul>
+                {
+                login.map((menu)=>(
+                    <li className= "p-2 cursor-pointer text-lg" key={menu}><menu/> </li>
+                ))
+                }
+            </ul>
             </div>
-            
+
+            </div>
+            </div>
         </div>
     )
 }
