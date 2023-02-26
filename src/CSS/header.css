@@ -1,0 +1,8 @@
+.header_container {
+    min-height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(37, 85, 77, 0.85), rgba(37, 85, 77, 0.85)), url(../assets/Assets3/header_image.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
