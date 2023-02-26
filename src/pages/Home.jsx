@@ -68,6 +68,11 @@ const Home = () => {
             />
             
             </div>
+            <div>
+              <div className='w-full h-96 bg-bhc_green'>
+                
+              </div>
+            </div>
             <Footer />
           </div>
       }

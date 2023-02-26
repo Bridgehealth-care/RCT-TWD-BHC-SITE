@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import newLogo from "../assets/newlogo.jpg"
+import '../CSS/navbar.css'
+import { FaAngleDown } from "react-icons/fa";
+import bhc_logo from '../assets/Assets3/bhc logo_1.png';
+import bhc_text_img from '../assets/Assets3/Bridge_HealthCare_2.png';
 // import Marquee from "react-fast-marquee";
 
 
@@ -11,10 +15,7 @@ const Navbar = ({ navClr }) => {
             title: "Home",
             to: "/"
         },
-        // {
-        //     title: "Products",
-        //     to: "/Products"
-        // }
+       
         // , {
         //     title: "Blogs",
         //     to: "/Blogs"
@@ -33,6 +34,10 @@ const Navbar = ({ navClr }) => {
             title: "Product",
             to: "/products"
         },
+        {
+            title: "Our Team",
+            to: "/Team"
+         },
 
          {
             title: "Contact Us",
@@ -44,17 +49,15 @@ const Navbar = ({ navClr }) => {
         <div className="flex w-screen flex-col">
             <div className="  overflow-hidden   cursor-pointer " style={{backgroundColor:"#fffff",
             color:"black"}}>
-               
+               <div className="nav_logo flex flex-row">
+             
+            </div>
             </div>
             <div className="w-full h-20  flex justify-between pl-20 pr-7  items-center text-black bg-white ">
                 <div className="flex items-center space-x-4 cursor-pointer" onClick={() => navigate("/")}>
-                    <img src={newLogo} alt="" className="w-16 h-10" />
-                    <div className="flex flex-col ">
-                        <span className="text-3l font-semibold tracking-wide font-lora">Bridge Health Care</span>
-                        <span className="text-xs font-sans tracking-widest">
-                            Private Limited
-                        </span>
-                    </div>
+                <img src={bhc_logo} alt="BHC" />
+                <img src={bhc_text_img} alt="Bridge Healthcare" />
+                   
                 </div>
                 <div className="flex space-x-2">
                     {
@@ -66,7 +69,9 @@ const Navbar = ({ navClr }) => {
                     }
                 </div>
             <div className='relative'>
-                    <button className='cursor-pointer flex'>Log In</button>
+            <button className="login_button flex relative right-0">Log In
+                <FaAngleDown className="mt-1.5 ml-2" />
+            </button>
             <div className='bg-grey p-4 w-52 shadow-lg absolute'>
             <ul>
                 {

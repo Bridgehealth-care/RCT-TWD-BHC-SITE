@@ -1,37 +1,16 @@
-import React from 'react'
-import {FaGreaterThan} from 'react-icons/fa'
-const Header =(props)=>{
-    return(
-        <div>
-                 <div className=" ">
-                        <div className='container' style={{
-                            backgroundColor: "#25554D",
-                            width: "100%",
-                            height: "50%",
-                            position: "absolute",
-                            zIndex: "-1",
-                            overflow: "hidden",
-                            justifyContent:"center",
-                            opacity:"0.8"}}
-                            >   
-                            <div
-                            style={{position: "absolute"                                    ,
-                                    width: "179px",
-                                    height: "74.68px",
-                                    left: "165px",
-                                    top: "169.17px"}}>
-                        <h1>{props.h1}</h1>
-                        <div className='flex justify-center items-center'>
-                        <span>{props.p}</span>
-                        <span><FaGreaterThan/></span>
-                        <span>{props.p1}</span>
+import React from "react";
+import '../CSS/header.css';
+import { FaAngleRight } from "react-icons/fa";
 
-                        </div>
-                            </div>
-                        </div>
-
-                        </div>
+const Header = (props) => {
+    return (
+        <div className="header_container flex">
+            <div className="header_text flex flex-col justify-center ml-32 text-white">
+                <h1 className="text-4xl font-bold leading-10 tracking-widest">{props.h1}</h1>
+                <h2 className="text-xl font-normal leading-10 tracking-wider flex flex-row">{props.p} <FaAngleRight className="mt-3 ml-3 mr-3" /> {props.p1}</h2>
+            </div>
         </div>
     )
 }
+
 export default Header;

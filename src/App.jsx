@@ -2,7 +2,7 @@ import {BrowserRouter as Router , Routes , Route} from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About";
 import Contact from "./pages/Contact"
-// import Carrers from "./pages/Careers"
+import Team from "./pages/Team";
 import Products from "./pages/Products"
 import Services from "./pages/Services";
 // import Blog from "./pages/Blog"
@@ -19,6 +19,7 @@ function App() {
         {/* <Route path="/Carrers" element={<Carrers/>}/> */}
         <Route path="/Products" element={<Products/>}/>
         <Route path="/Ourservices" element={<Services/>}/>
+        <Route path="/Team" element={<Team/>}/>
         {/* <Route path="/Blogs" element={<Blog/>}/> */}
         {/* <Route path="/Blog/:id" element={<BlogSingle/>}/> */}
       </Routes>
