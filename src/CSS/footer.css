@@ -1,0 +1,156 @@
+.footer_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.get_app {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background: #FFFFFF;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    height: 35vh;
+    /* width: 100%; */
+    background: #D9D9D9;
+    flex-direction: row;
+    padding: 2em;
+    margin-top: auto;
+}
+
+.lower {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background: #FFFFFF;
+    flex-direction: row;
+    align-items: center;
+}
+
+.copyright {
+    margin-left: 12em;
+    color: #26323C;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.privacy {
+    display: flex;
+    flex-direction: row;
+    color: #26323C;
+    opacity: 0.8;
+    margin-left: 4em;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    right: 8em;
+}
+
+.mg-l-2 {
+    margin-left: 2em;
+}
+
+.logo {}
+
+.text__icon {}
+
+.links {}
+
+.acc {}
+
+.text {
+    margin: 0;
+}
+
+.ready {
+    display: flex;
+    background: #25554D;
+    border-radius: 15px;
+    height: 12em;
+    margin: 4em 8em;
+    width: 80%;
+}
+
+.ready_content {
+    padding: 3em 5em;
+    color: #FFFFFF;
+}
+
+.ready_content>h3 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.ready_content>p {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 3px 0;
+}
+
+.ready_btn {
+    position: relative;
+    background: #FFFFFF;
+    margin-right: 5em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 20%;
+    border-radius: 500px;
+}
+
+.bottom_ready {
+    display: flex;
+    flex-direction: row;
+    margin: 0 8em;
+}
+
+/* .bottom_img {
+    background: gray;
+    width: 50%;
+    position: relative;
+    left: 2em;
+    height: 282px;
+} */
+
+.bottom_content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: right;
+    margin-left: 2rem;
+    margin: auto 2rem;
+}
+
+.bottom_img {
+    width: 60%;
+}
+
+.get_app_heading {
+    margin: 0;
+}
+
+.get_app_text {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.icons_elt {
+    padding: 0.55rem;
+    border-radius: 50%;
+    background: white;
+    margin-right: 1em;
+}
+
+.app_text {
+    border-bottom-color: #3767B1;
+}
+
+.store_img {
+    position: relative;
+    left: 2.5em;
+}

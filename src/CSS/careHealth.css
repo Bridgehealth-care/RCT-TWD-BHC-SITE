@@ -1,0 +1,15 @@
+.care_container {
+    height: 90vh;
+    width: 100%;
+    background: #F9F9FD;
+    padding: 3rem 8rem;
+    text-align: center;
+}
+
+.card_care {
+    padding: 2rem 1rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(38, 50, 60, 0.1);
+    box-shadow: 0px 10px 20px rgba(11, 26, 162, 0.02);
+    border-radius: 20px;
+}

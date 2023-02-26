@@ -1,0 +1,13 @@
+.Product_video {
+    height: 90vh;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 3rem 8rem;
+}
+
+.Product_container {
+    height: 90vh;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 3rem 8rem 3rem 4rem;
+}
